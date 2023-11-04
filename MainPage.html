@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户权限管理-主界面</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .head{
+            width: 200px;
+            height: 30px;
+            margin-top: 30px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        .menu{
+            margin-left: 50px;
+        }
+        .content{
+          margin-left: 50px;
+          margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head"><h2>用户权限管理</h2></div>
+    <span class="menu" style="width: 130px; height: 30px;">职位：
+        <select>
+            <option>店长</option>
+            <option>仓库管理员</option>
+            <option>售货员</option>
+            <option>客户</option>
+            <option>普通用户</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary" style="background-color: #1990FF;">按职位查看用户</button>
+        &nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-primary" style="background-color: #1990FF;">修改职位权限</button>
+    </span>
+    <div class="content">
+      <table class="table table-hover" style="width: 800px;">
+        <thead>
+          <tr>
+            <th>账号</th>
+            <th>姓名</th>
+            <th>电话</th>
+            <th>性别</th>
+            <th>职位</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="./Personalinfo.html" style="text-decoration: none; color: #1990FF;">123456</a></td>
+            <td>张三</td>
+            <td>0451-12345678</td>
+            <td>男</td>
+            <td>售货员</td>
+            <td><a href="./UserPage.html" style="text-decoration: none; color: #1990FF;">修改用户权限</a>&nbsp;<a href="#" style="text-decoration: none; color: #1990FF;">删除</a></td>
+          </tr>
+          <tr>
+            <td><a href="./Personalinfo.html" style="text-decoration: none; color: #1990FF;">123456</a></td>
+            <td>张三</td>
+            <td>0451-12345678</td>
+            <td>男</td>
+            <td>售货员</td>
+            <td><a href="./UserPage.html" style="text-decoration: none; color: #1990FF;">修改用户权限</a>&nbsp;<a href="#" style="text-decoration: none; color: #1990FF;">删除</a></td>
+          </tr>
+          <tr>
+            <td><a href="./Personalinfo.html" style="text-decoration: none; color: #1990FF;">123456</a></td>
+            <td>张三</td>
+            <td>0451-12345678</td>
+            <td>男</td>
+            <td>售货员</td>
+            <td><a href="./UserPage.html" style="text-decoration: none; color: #1990FF;">修改用户权限</a>&nbsp;<a href="#" style="text-decoration: none; color: #1990FF;">删除</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

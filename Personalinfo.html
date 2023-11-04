@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息设置</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .head{
+            width: 200px;
+            height: 30px;
+            margin: 30px auto 10px auto;
+        }
+        .hint{
+            margin-left: 600px;
+            font-size: 15px;
+        }
+        .text{
+            margin-left: 600px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h4 class="head">个人信息设置</h4>
+    <div class="hint">账号</div>
+    <div class="text"><input type="text" placeholder="请输入账号" style="width: 305px; height: 25px;"></div>
+    <div class="hint">姓名</div>
+    <div class="text"><input type="text" placeholder="请输入姓名" style="width: 305px; height: 25px;"></div>
+    <span class="text">性别&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender">男&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender">女</span>
+    <br><br>
+    <span class="text">职位&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select style="width: 130px; height: 30px;">
+            <option>店长</option>
+            <option>仓库管理员</option>
+            <option>售货员</option>
+            <option>客户</option>
+            <option>普通用户</option>
+        </select>
+    </span>
+    <br><br>
+    <div class="hint">联系电话</div>
+    <span class="text"><input type="text" placeholder="请输入区号" style="width: 100px; height: 30px;">&nbsp;<input type="text" placeholder="请输入号码" style="width: 200px; height: 30px;"></span>
+    <br><br>
+    <div class="hint">电子邮箱</div>
+    <div class="text"><input type="text" placeholder="请输入邮箱地址" style="width: 305px; height: 25px;"></div>
+    <div class="hint">家庭地址</div>
+    <div class="text"><input type="text" placeholder="请输入家庭地址" style="width: 305px; height: 25px;"></div>
+    <div class="hint">个人简介</div>
+    <div class="text"><textarea cols="39" rows="5" placeholder="这位用户很懒，什么也没有留下"></textarea></div>
+    <div class="head">
+        <button type="button" class="btn btn-primary" style="background-color: #1990FF;">更新信息</button>
+    </div>
+</body>
+</html>
